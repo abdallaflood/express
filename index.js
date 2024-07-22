@@ -12,5 +12,5 @@ mongoose.connect('mongodb+srv://devabdalla:Qdsrlu3m1GR3Etuh@cluster0.3dlmk4a.mon
 }).catch((arr) => {console.log(err)});
 
 app.listen(port, () => {
-  console.log(`http://localhost:$(port)/`)
+  console.log(`http://localhost:$(port)/`) 
 })
